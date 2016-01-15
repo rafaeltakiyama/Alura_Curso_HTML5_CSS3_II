@@ -1,3 +1,11 @@
+.inicio-post{
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 4em;
+    padding: 1em;
+    margin: auto 15% auto 40%;
+}
 .foto-home {
     height: 200px;
     border: 0px solid #851944;
@@ -6,8 +14,10 @@
 .saudacao p {
     color: #99A;
     line-height: 1;
+    padding: 5% 20% 5% 20%;
 }
 .saudacao-inicio {
+    font-size: 300%;
     color: #889;
 }
 .saudacao-ultima-linha {
@@ -15,9 +25,11 @@
     display: block;
 }
 .saudacao strong {
+    font-size: 230%;
     color: #000;
 }
 .saudacao em {
+    font-size: 300%;
     color: #851944;
 }
 .botao-index {
@@ -29,8 +41,16 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+.secao-inicio{
+    position: relative;
+    padding: 5% 3% 0% 3%;
 }
 .secao-inicio h2 {
+    font-size: 200%;
     text-transform: uppercase;
 }
 .trabalhos {
@@ -44,6 +64,7 @@
 .trabalhos ul {
     overflow: hidden;
     border: 10px solid black;
+    margin-top: 2%;
 }
 .trabalhos li {
     float: left;
@@ -58,15 +79,28 @@
     color: #FFF;
     border-bottom: 10px solid #851944;
 }
+.blog small{
+    font-size: 90%;
+}
+.blog li {
+    padding: 1% 0% 0% 1%;
+}
 .blog li a {
     color: #FCF;
 }
 footer {
+    padding: 5% 3% 3% 3%;
     background-color: #000;
     color: #FFF;
 }
+footer h2 {
+    font-size: 200%;
+}
 footer a {
     color: #F99;
+}
+footer p {
+    font-size: 90%;
 }
 main {
     width: 100%;
