@@ -1,15 +1,18 @@
-.inicio-post{
-    color: black;
-    background-color: white;
-    position: absolute;
-    top: 4em;
-    padding: 1em;
-    margin: auto 15% auto 40%;
+.blog .inicio-post {
+  position: absolute;
+  top: 4em;
+  height: 4em;
+  left: 30%;
+  right: 8em;
+  background-color: #F2FFFC;
+  color: #000;
+  padding: 2.0em;
 }
+
 .foto-home {
     height: 200px;
     border: 0px solid #851944;
-    border-radius: 180px;
+    border-radius: 50%;
 }
 .saudacao p {
     color: #99A;
@@ -31,6 +34,8 @@
 .saudacao em {
     font-size: 300%;
     color: #851944;
+    display: inline-block;
+    transform: rotate(-5deg) skew(-10deg);
 }
 .botao-index {
     background-color: #851944;
@@ -78,16 +83,19 @@
     background-color: #999;
     color: #FFF;
     border-bottom: 10px solid #851944;
+    position: relative;
 }
 .blog small{
     font-size: 90%;
 }
 .blog li {
     padding: 1% 0% 0% 1%;
+      width: 30%;
 }
 .blog li a {
     color: #FCF;
 }
+
 footer {
     padding: 5% 3% 3% 3%;
     background-color: #000;
@@ -106,4 +114,125 @@ main {
     width: 100%;
     padding-bottom: 0;
     float: none;
+}
+
+.palavra-home  {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #D5447E;
+    position: absolute;
+}
+
+.eficiencia {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    top: 20%;
+    left: 75%;
+}
+
+.boas-praticas {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    top: 58%;
+    left: 20%;
+}
+
+.codigo-limpo {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+    top: 28%;
+    left: 25%;
+}
+
+.css3 {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    top: 32%;
+    left: 36%;
+}
+
+.html5 {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    top: 39%;
+    left: 72%;
+}
+
+.javascript {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+    top: 12%;
+    left: 65%;
+}
+
+.responsivo {
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    top: 11%;
+    left: 20%;
+}
+
+.otimizacoes {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    top: 50%;
+    left: 65%;
+}
+
+.agilidade {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    top: 13%;
+    left: 34%;
+}
+
+.design {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    top: 30%;
+    left: 62%;
+}
+
+.acessibilidade{
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    top: 50%;
+    left: 30%;
+}
+
+.blog .mais-recente {
+    background-color: #F2FFFC;
+    padding-bottom: 1%;
+}
+.blog .mais-recente a {
+  color: #F26;
+}
+
+.siga-twitter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    text-align: center;
+    text-decoration: none;
+    border: .2em solid black;
+    background-color: #3C1D3D;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    color: white;
+    transform-origin: 0 0;
+    transform: translate(6.5765em, -2.4745em) rotate(45deg);
+}
+
+.skills-perspectiva{
+/*
+    perspective: 100px;
+    width: 100%;
+    height: 100%;
+    perspective-origin: center;
+    position: absolute;
+*/
 }

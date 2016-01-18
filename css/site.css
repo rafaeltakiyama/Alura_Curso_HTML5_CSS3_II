@@ -4,6 +4,10 @@ html {
 }
 */
 
+header{
+    position: relative;
+}
+
 body {
     font-family: "Crimson Text", "Times New Roman", serif;
     background-color: #F2FFFC;

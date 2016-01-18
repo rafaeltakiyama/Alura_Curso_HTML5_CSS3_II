@@ -1,0 +1,46 @@
+.bolas{
+    perspective: 100px;
+    perspective-origin: right;
+    background-color:  azure;
+
+}
+
+.bola1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    top: 20%;
+    left: 40%;
+    transform: translateZ(10px);
+}
+
+.bola2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+    top: 70%;
+    left: 20%;
+    transform: translateZ(-5px);
+}
+
+.bola3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+    position: relative;
+    top: 30%;
+    left: 80%;
+    transform: translateZ(10px);
+}
+
+.quadrado{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    transform:  scale(1.5) translateX(300px) rotate(45deg)  scale(1.5) ;
+}
